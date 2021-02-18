@@ -27,8 +27,9 @@ kubernetes_primary_imgs:
 
 kubernetes_additional_imgs:
 - pause.tar
-- coredns.tar
-- etcd.tar
+# eks-d does not provide these image tars yet
+#- coredns.tar
+#- etcd.tar
 
 kubernetes_load_additional_imgs: false
 
